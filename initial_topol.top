@@ -1,0 +1,22 @@
+; Topology file for split membrane
+
+; Include forcefield parameters
+#include "Split_Slipids_2020.ff/forcefield.itp"
+#include "Split_Slipids_2020.ff/PE.itp"
+#include "Split_Slipids_2020.ff/PC.itp"
+#include "Split_Slipids_2020.ff/SM.itp"
+#include "Split_Slipids_2020.ff/PS.itp"
+#include "Split_Slipids_2020.ff/PA.itp"
+#include "Split_Slipids_2020.ff/PO.itp"
+#include "Split_Slipids_2020.ff/PO16.itp"
+#include "Split_Slipids_2020.ff/cholesterol.itp"
+#include "Split_Slipids_2020.ff/TIP3p.itp"
+#include "Split_Slipids_2020.ff/ions.itp"
+
+
+[ system ]
+; Name
+Split membrane
+
+[ molecules ]
+; Compound	#mols
