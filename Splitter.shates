@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##############################################################################################################
-# This script produces a split membrane out of a membrane obtained from CHARMM-GUI website with CHARMM36 FF. #       
-# Before using the script, pleasde read the README.txt                                                       #
-##############################################################################################################
+########################################################################################
+# This script generates a split membrane out of a membrane created with CHARMM36 FF.   #       
+# Before using the script, pleasde read the README.txt.                                #
+########################################################################################
 
 echo
 echo "############################"
@@ -11,7 +11,7 @@ echo "### Starting the process ###"
 echo "############################"
 echo
 
-# Read the final output .gro file of Charmm-gui (step7_10.gro)
+# Read the .gro file (default is the gro file created by Charmm-gui: step7_10.gro, you can use any other .gro file.)
 
 echo "### Reading the input file..."
 
@@ -1773,6 +1773,8 @@ echo q
     } | gmx make_ndx -f box.gro -o groups.ndx
 
 # Run a short minimization
+
+echo "Runing a short minimization"
 
 gmx grompp -f EM.mdp -c box.gro -n groups.ndx -r ref.gro -p topol.top -o split_bilayer.tpr
 gmx_mpi mdrun -v -deffnm split_bilayer
