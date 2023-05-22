@@ -24,21 +24,21 @@ do
 
 done
 
-echo -n "Write the value for rRadius: "
-read rRADIUS
-
-echo -n "Write the value for rPotential: "
-read rPOTENTIAL
-
-for ITPs in PA.itp PC.itp PE.itp PS.itp SM.itp; 
-do
-
-    awk -v OFS=" "  -v rRADIUS="$rRADIUS" -v rPOTENTIAL="$rPOTENTIAL" '{ if ( $2 == "rRADIUS" )
-        {$3=rRADIUS}
-        if ( $2 == "rPOTENTIAL" )
-        {$3=rPOTENTIAL}
-        print $0
-        }' $ITPs > file.tmp && mv file.tmp $ITPs
-
-done
+#echo -n "Write the value for rRadius: "
+#read rRADIUS
+#
+#echo -n "Write the value for rPotential: "
+#read rPOTENTIAL
+#
+#for ITPs in PA.itp PC.itp PE.itp PS.itp SM.itp; 
+#do
+#
+#    awk -v OFS=" "  -v rRADIUS="$rRADIUS" -v rPOTENTIAL="$rPOTENTIAL" '{ if ( $2 == "rRADIUS" )
+#        {$3=rRADIUS}
+#        if ( $2 == "rPOTENTIAL" )
+#        {$3=rPOTENTIAL}
+#        print $0
+#        }' $ITPs > file.tmp && mv file.tmp $ITPs
+#
+#done
 
