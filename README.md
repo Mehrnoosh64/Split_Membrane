@@ -1,4 +1,4 @@
-# Split_Membrane
+# SplitMembrane
 
 ***
 How to make a split bilayer:
