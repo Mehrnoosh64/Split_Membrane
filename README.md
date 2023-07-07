@@ -4,11 +4,10 @@
 How to make a split bilayer:
 You need to run "Splitter.sh".
 To run the script, you need to have the following files in the working folder: 
-1. step7_10.gro 
-2. step7_10.tpr
+1. input.gro 
+2. input.tpr
     (.gro and .tpr files of your desired membrane made by charmm36 force field. 
-    The default files are step7_10.gro and step7_10.tpr obtained from charmm-gui website. 
-    If you use other .gro and .tpr files, edit the name in the script)                                      
+    For example, you can use step7_10.gro and step7_10.tpr obtained from charmm-gui website.)                                      
 3. initial_topol.top                                                                                      
 4. water_deletor.pl (Written by Justin Lemkul, jalemkul@vt.edu)                                           
 5. Split_Splipids_2020.ff folder
