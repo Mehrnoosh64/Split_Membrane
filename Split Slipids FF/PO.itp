@@ -1021,6 +1021,12 @@ PO               3
 ; Site   funct    from
 2        2        1
 
+#define RADIUS 1.0
+#define POTENTIAL 50
+[ position_restraints ]
+;  i funct       g (type)   r (nm)     k (kJ/mol)
+1     2          5          RADIUS        POTENTIAL
+
 #ifdef POSRES
 [ position_restraints ]
     1     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
