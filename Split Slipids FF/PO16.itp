@@ -954,7 +954,7 @@ PO16               3
    97    95    98   101     9 
 
 [ dihedrals ]
-;  ai    aj    ak    al funct            c0            c1            c2            c3
+;  ai    aj    ak    al   funct            c0            c1            c2            c3
     6     4     8     7     2 
 
 [ virtual_sitesn ]
