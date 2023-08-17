@@ -1013,7 +1013,7 @@ PO               3
   104   102   105   108     9 
 
 [ dihedrals ]
-;  ai    aj    ak    al funct            c0            c1            c2            c3
+;  ai    aj    ak    al   funct            c0            c1            c2            c3
     5     4     7     6     2 
    14    13    16    15     2 
 
