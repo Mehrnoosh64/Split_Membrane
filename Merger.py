@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 import math
 from scipy.optimize import linear_sum_assignment
+scipy.optimize.linear_sum_assignment
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -207,6 +208,8 @@ def get_distances(df):
     for j in range (len(p)):
         for k in range (len(q)):
             distances[j][k] = get_length(df, p[j], q[k])
+            #introduce bias for minimalization
+            distances[j][k] = math.exp(10*distances[j][k])
     minimal_assignment = linear_sum_assignment(distances)
     return minimal_assignment
             
@@ -214,7 +217,7 @@ def get_pair(df):
     for i in range (len(p)):
         head_index = p_index[minimal_assignment[0][i]]
         tail_index = q_index[minimal_assignment[1][i]]
-        #print (minimal_assignment[0][i],":",head_index, "-->", minimal_assignment[1][i], ":", tail_index)
+        print (minimal_assignment[0][i],":",head_index, "-->", minimal_assignment[1][i], ":", tail_index)
         
 #Rearrange heads and tails
 tmp_df = pd.DataFrame(columns = ['A'])
