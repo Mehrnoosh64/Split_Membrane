@@ -75,10 +75,10 @@ PA	     3
 
 #ifdef POSRES
 [ position_restraints ]
-    1     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    2     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    3     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    4     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    6     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    7     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
+    1     1    0               0               POSRES_FC_BB   
+    2     1    0               0               POSRES_FC_BB   
+    3     1    0               0               POSRES_FC_BB   
+    4     1    0               0               POSRES_FC_BB   
+    6     1    0               0               POSRES_FC_BB   
+    7     1    0               0               POSRES_FC_BB   
 #endif
