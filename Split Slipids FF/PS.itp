@@ -176,16 +176,16 @@ PS	     3
 
 #ifdef POSRES
 [ position_restraints ]
-    1     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    5     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    7     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    8     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    9     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   10     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   13     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   14     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   15     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   16     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   17     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   18     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
+    1     1    0               0               POSRES_FC_BB   
+    5     1    0               0               POSRES_FC_BB   
+    7     1    0               0               POSRES_FC_BB  
+    8     1    0               0               POSRES_FC_BB   
+    9     1    0               0               POSRES_FC_BB   
+   10     1    0               0               POSRES_FC_BB   
+   13     1    0               0               POSRES_FC_BB   
+   14     1    0               0               POSRES_FC_BB   
+   15     1    0               0               POSRES_FC_BB   
+   16     1    0               0               POSRES_FC_BB   
+   17     1    0               0               POSRES_FC_BB   
+   18     1    0               0               POSRES_FC_BB   
 #endif
