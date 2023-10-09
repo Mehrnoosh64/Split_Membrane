@@ -967,7 +967,7 @@ PO16               3
 ;  i funct       g (type)   r (nm)     k (kJ/mol)
 1     2          5          RADIUS        POTENTIAL
 
-#ifdef POSRES
+#ifdef POSRES_TAILS
 [ position_restraints ]   
    1     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
    4     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
