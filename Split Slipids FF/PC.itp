@@ -243,17 +243,17 @@ PC               3
 
 #ifdef POSRES
 [ position_restraints ]
-    1     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    2     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    3     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    4     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-    5     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   17     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   20     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   21     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   22     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   23     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   24     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
-   25     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
+    1     1    0               0               POSRES_FC_BB   
+    2     1    0               0               POSRES_FC_BB   
+    3     1    0               0               POSRES_FC_BB   
+    4     1    0               0               POSRES_FC_BB   
+    5     1    0               0               POSRES_FC_BB   
+   17     1    0               0               POSRES_FC_BB  
+   20     1    0               0               POSRES_FC_BB  
+   21     1    0               0               POSRES_FC_BB   
+   22     1    0               0               POSRES_FC_BB  
+   23     1    0               0               POSRES_FC_BB   
+   24     1    0               0               POSRES_FC_BB   
+   25     1    0               0               POSRES_FC_BB   
 #endif
 
