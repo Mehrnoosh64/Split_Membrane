@@ -23,8 +23,11 @@ If you want to reunite the split membrane after your simulation, you will need t
 After reuniting the head and tails, I suggest a minimization with loose restraints on the head group P atoms. For example, for POPC, you can add the following lines to the .itp file
 
 #ifdef POSRES_POPC
+
 [ position_restraints ]
-20 1 10 10 10
+
+20     1     10     10     10
+
 #endif
 
 Then you have to equilibrate the system. I turned off the restraints for the z direction while keeping them for the xy direction during the equilibration. This way you don't let the head groups move much from their positions.
