@@ -38,4 +38,4 @@ Note: If you have proteins in your systems, you will need to add them to the mer
 ***
 If you are using the script, please cite us:                                            
                                                                                                        
-Hazrati, M. K., Sukeník, L., and Vácha, R. (2025). Split Membrane: A New Model to Accelerate All-Atom MD Simulation of Phospholipid Bilayers. Journal of Chemical Information and Modeling, 65(2), 845–856. https://doi.org/10.1021/acs.jcim.4c01664 
+M.K. Hazrati, L. Sukenik, and R. Vacha, “Split Membrane: A New Model to Accelerate All-Atom MD Simulation of Phospholipid Bilayers”, Journal of Chemical Information and Modeling: 65, 2, (2025) 845–856. https://doi.org/10.1021/acs.jcim.4c01664 
